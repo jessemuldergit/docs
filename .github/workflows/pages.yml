@@ -24,8 +24,17 @@ jobs:
         with:
           python-version: "3.x"
 
-      - run: python -m pip install mkdocs-material
-      - run: python -m mkdocs build --strict
+      - name: Install dependencies
+        run: python -m pip install mkdocs-material requests
+
+      - name: Generate repos page
+        env:
+          GITHUB_USER: jessemuldergit
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/generate_repos.py
+
+      - name: Build site
+        run: python -m mkdocs build --strict
 
       - uses: actions/upload-pages-artifact@v3
         with:
