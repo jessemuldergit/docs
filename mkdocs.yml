@@ -1,1 +1,10 @@
-site_name: My Docs
+site_name: Jesse Docs
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Azure:
+      - Landing zones: azure/landing-zones.md
+  - Intune:
+      - Win32 deploy: intune/win32-deploy.md
