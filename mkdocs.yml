@@ -4,7 +4,5 @@ theme:
 
 nav:
   - Home: index.md
-  - Azure:
-      - Landing zones: azure/landing-zones.md
   - Intune:
       - Win32 deploy: intune/win32-deploy.md
