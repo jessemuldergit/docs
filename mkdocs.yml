@@ -4,6 +4,5 @@ theme:
 
 nav:
   - Home: index.md
-  - Repos: repos.md
   - Intune:
       - Win32 deploy: intune/win32-deploy.md

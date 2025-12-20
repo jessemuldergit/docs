@@ -1,10 +1,11 @@
 # Jesse Docs
 
-## Portfolio
-- Project A – korte zin – link
-- Project B – korte zin – link
+## Over mij
+Cloud / Modern Workplace engineer.  
+Azure, Intune, AVD, Automation.
 
-## Topics
-- Azure / ALZ / AVD
-- Intune / Modern Workplace
-- PowerShell / Automation
+---
+
+## Projecten
+<!-- REPOS_START -->
+<!-- REPOS_END -->
