@@ -26,6 +26,7 @@ jobs:
 
       - name: Install dependencies
         run: python -m pip install mkdocs-material requests
+        run: python -m pip install mkdocs-bootstrap4 requests
 
       - name: Generate repos page
         env:
