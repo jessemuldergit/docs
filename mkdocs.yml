@@ -1,8 +1,37 @@
 site_name: Jesse Docs
+
 theme:
-  name: material
+  name: bootstrap4
+  language: en
+  font:
+    text: Lato
+    code: Lato
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - header.autohide
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - navigation.indexes
+    - footer.social
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jessemuldergit
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/
+
 
 nav:
   - Home: index.md
   - Intune:
       - Win32 deploy: intune/win32-deploy.md
+
